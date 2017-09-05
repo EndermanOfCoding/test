@@ -1,0 +1,207 @@
+/*---------------------------------------------
+                Responsive Css
+-----------------------------------------------*/
+@media only screen and (min-width:992px) and (max-width:1200px){
+
+	}
+
+/*
+	Tab responsive
+*/
+@media only screen and (min-width: 768px) and (max-width: 991px){
+	.inner_content_social h2 {
+		font-size: 40px;
+	}
+	h2{
+		font-size: 35px;
+	}
+	.popup > img {
+		display: block;
+		margin: auto;
+	}
+	.service_inner_content i {
+		font-size: 25px;
+	}
+	.service_inner_content > p {
+		font-size: 15px;
+		margin-bottom: 18px;
+	}
+	.resume_details {
+		margin-bottom: 15px;
+	}
+}
+/*
+    SMart Phone Device
+*/
+@media only screen and (min-width: 300px) and (max-width: 767px){
+	.mobile_menu{
+        display: block;
+    }
+    .menu_area {
+        background: #555 none repeat scroll 0 0;
+        text-align: left;
+        width: 100%;
+    }
+    .menu_area ul li {
+        background: #000 none repeat scroll 0 0;
+        border-bottom: 1px solid #333;
+        display: block;
+        margin-right: 10px;
+        width: 100%;
+    }
+	h2 {
+		font-size: 16px;
+		line-height: 23px;
+	}
+	.inner_content_social h2 {
+		font-size: 18px;
+	}
+	.inner_content_social a {
+		height: 35px;
+		width: 35px;
+		margin-right: 2px;
+	}
+	.inner_content.text-center > h3 {
+		font-size: 20px;
+	}
+	.inner_content.text-center > p {
+		font-size: 12px;
+	}
+	.inner_content.text-center > a {
+		font-size: 11px;
+	}
+	.person_info > h3 {
+		margin-top: 11px;
+	}
+	.person_info > p {
+		font-size: 13px;
+		line-height: 21px;
+	}
+	.single_percent > h3 {
+		font-size: 12px;
+	}
+	.single_percent > p {
+		font-size: 11px;
+		padding: 8px 39px;
+	}
+	.service_inner_content > h3 {
+		font-size: 12px;
+		margin-bottom: 5px;
+		margin-top: 9px;
+	}
+	.service_inner_content > p {
+		font-size: 13px;
+	}
+	.service_inner_content {
+		margin-top: 16px;
+	}
+	.resume_details h4 {
+		font-size: 14px;
+		line-height: 28px;
+	}
+	.resume_details > p {
+		font-size: 13px;
+		line-height: 21px;
+	}
+	.popup > img {
+		display: block;
+		margin: auto;
+	}
+	.work_filter li {
+		font-size: 10px;
+		margin-left: 15px;
+	}
+	.client_details::before {
+		content: "";
+		font-family: icofont;
+		left: 0;
+		position: absolute;
+		top: 4px;
+		transform: translateX(0px);
+	}
+	.client_details > p {
+		font-size: 12px;
+		line-height: 22px;
+		padding: 15px;
+		text-align: center;
+	}
+	.footer_inner_content > p {
+		font-size: 12px;
+
+	}
+	/*-------single blog-------*/
+	.inner_content_blog_details  a h2 {
+		font-size: 10px;
+	}
+	.inner_content_blog_details h2{
+		font-size: 11px;
+	}
+	.post_details > p {
+		font-size: 11px;
+	}
+	blockquote p {
+		font-size: 11px;
+	}
+	.share_posts h4 {
+		font-size: 12px;
+	}
+	.author_body_content h5 {
+		font-size: 9px;
+		line-height: 16px;
+	}
+	.comment_form_section > h4 {
+		font-size: 14px;
+	}
+	.about_me > h4 {
+  		font-size: 14px;
+	}
+	.about_me > p {
+		line-height: 26px;
+	}
+	.widget_title > h4 {
+		font-size: 16px;
+	}
+	.widget_title ul li a {
+		font-size: 12px;
+	}
+	.tags > a {
+		font-size: 11px;
+		padding: 6px;
+	}
+	.single_related_post{
+		margin-bottom: 27px;
+	}
+}
+@media only screen and (min-width:480px) and (max-width: 767px){
+	.popup > img {
+		display: block;
+		margin: auto;
+	}
+
+	/*--------single blog--------*/
+	.post_details > p {
+		font-size: 12px;
+	}
+	.inner_content_blog_details  a h2 {
+		font-size: 12px;
+	}
+	.inner_content_blog_details h2{
+		font-size: 15px;
+	}
+	blockquote p {
+		font-size: 12px;
+	}
+	.comment_form_section > h4 {
+		font-size: 15px;
+	}
+	.about_me > h4 {
+		font-size: 16px;
+	}
+	.about_me > p {
+		line-height: 27px;
+	}
+	.widget_title > h4 {
+		font-size: 18px;
+
+	}
+}
